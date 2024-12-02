@@ -1,0 +1,25 @@
+package com.demo.list;
+
+import java.util.LinkedList;
+
+public class Graph {
+private MyLinkedList[] g;
+public Graph(int v) {
+	g=new MyLinkedList[v];
+	for(int i=0;i<v;i++) {
+		g[i]=new MyLinkedList();
+	}
+}
+   public void addAge(int source, int destination) {
+	   g[source].addValue(destination);
+   }
+   
+   public void printGraph() {
+	   for(int i=0;i<g.length;i++) {
+		   System.out.println(i+"======>");
+		   g[i].displayList();
+		   
+	   }
+   }
+
+}

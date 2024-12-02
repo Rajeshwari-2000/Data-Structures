@@ -1,0 +1,12 @@
+package com.demo.list;
+
+public class Graph {
+private MyLinkedList[]g;
+public Graph(int v) {
+	g=new LinkedList[v];
+	for(int i=0;i<v;i++) {
+		g[i]=new MyLinkedList();
+	}
+}
+
+}

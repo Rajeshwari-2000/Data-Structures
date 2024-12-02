@@ -1,0 +1,9 @@
+package com.demo.test;
+
+public class AdjescencyMatrix {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
